@@ -1,0 +1,35 @@
+{
+  "name": "storyz-server",
+  "version": "0.0.0",
+  "description": "Nodejs server for StoryZ application",
+  "keywords": [
+    "storyz",
+    "blog-application"
+  ],
+  "license": "ISC",
+  "author": {
+    "name": "Harsha Vardhan",
+    "email": "harshamadasi@gmail.com",
+    "url": "https://github.com/harsha470"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harsha470/storyz.git",
+    "directory": "server"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "20.8.1"
+  }
+}
