@@ -3,7 +3,7 @@ export default function App() {
     <div className="flex flex-col items-center justify-center w-screen h-screen">
       <h1 className="mb-5 text-5xl font-bold">
         Welcome to{" "}
-        <span className="text-transparent bg-gradient bg-clip-text">
+        <span className="text-transparent bg-gradient-to-r from-[#ab87ff] to-[#3ce9a4] bg-clip-text">
           StoryZ
         </span>
       </h1>
